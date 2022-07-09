@@ -216,7 +216,7 @@ header nav  > ul a {
         margin-left: 34px;
     }
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     header nav  > ul {
         flex-direction: column;
     }
@@ -384,6 +384,11 @@ header nav  > ul a {
 }
 .gallery .gridbox .card img:hover {
     transform: rotate(5deg) scale(1.2);
+}
+@media (max-width: 370px) {
+    .gallery .gridbox {
+        grid-template-columns: repeat(auto-fill , minmax(250px,1fr));
+    }   
 }
 /* End Gallery */
 /* Start Features */
@@ -584,7 +589,11 @@ header nav  > ul a {
     top: -26px;
     right: 0;
 }
-
+@media (max-width: 360px) {
+    .testimonials .gridbox {
+        grid-template-columns: repeat(auto-fill , minmax(260px,1fr));
+    }
+}
 /* End Testimonials */
 /* Start Members */
 .members .container {
