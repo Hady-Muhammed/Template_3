@@ -1515,8 +1515,8 @@ header nav  > ul a {
     }
   }
 /* End Animation */
-@media (max-width: 300px) {
+@media (max-width: 400px) {
     .gridbox {
-        grid-template-columns: repeat(auto-fill,minmax(200px , 1fr)) !important;
+        grid-template-columns: repeat(auto-fill,minmax(150px , 1fr)) !important;
     }
 }
