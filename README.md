@@ -2,6 +2,9 @@
 
 A work of mine added to my portfolio.
 
-HTML AND CSS DESIGN
+credits to elzero web school for the sketch!
 
-https://www.graphberry.com/item/kasper-one-page-psd-template
+DESIGN LINK
+
+https://elzero.org/html-css-practice-template-three/
+
